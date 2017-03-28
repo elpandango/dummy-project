@@ -1,0 +1,34 @@
+{
+"name": "web-template",
+"version": "1.0.0",
+"authors": [
+"Eugen Radchenko"
+],
+"description": "",
+"dependencies": {
+"jquery": "~2.1.4",
+"bootstrap": "~3.3.5"
+},
+"overrides" : {
+"jquery" : {
+"main" : [
+"./dist/jquery.min.js"
+]
+},
+"angular" : {
+"main" : [
+"./dist/angular.min.js"
+]},
+"bootstrap" : {
+"main" : [
+"./dist/js/bootstrap.min.js",
+"./dist/css/bootstrap.min.css",
+"./dist/fonts/glyphicons-halflings-regular.eot",
+"./dist/fonts/glyphicons-halflings-regular.svg",
+"./dist/fonts/glyphicons-halflings-regular.ttf",
+"./dist/fonts/glyphicons-halflings-regular.woff",
+"./dist/fonts/glyphicons-halflings-regular.woff2"
+]
+}
+}
+}
