@@ -6,8 +6,6 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     sass = require('gulp-sass'),
     path = require('path');
-// var concat = require('gulp-concat');
-
 
 //***********************************************************//
 gulp.task('connect', function () {
